@@ -14,7 +14,7 @@ def receive_messages(sock):
             break
 
 
-def start_client(host="127.0.0.1", port=3000):
+def start_client(host="127.0.0.1", port=5000):
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
             sock.connect((host, port))
