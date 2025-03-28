@@ -74,5 +74,5 @@ class Server:
 
 
 if __name__ == "__main__":
-    server = Server(port=3000)
+    server = Server(port=5000)
     server.start()
